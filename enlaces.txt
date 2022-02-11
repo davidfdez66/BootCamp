@@ -1,0 +1,3 @@
+@Query( value = "SELECT * FROM USERS u WHERE u.status = 1", nativeQuery = true) List<User> findAllActiveUsersNative();
+
+https://www.programcreek.com/java-api-examples/?api=io.swagger.annotations.ApiResponse
